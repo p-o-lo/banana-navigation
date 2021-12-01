@@ -40,23 +40,41 @@ To run the notebook firstly **Navigation.ipynb** we need to set up the environme
     conda create --name drlnd python=3.6
     activate drlnd
    ```
+
 - If you didn't before, you need a minimal install of OpenAI gym
 ```
 pip install gym
 pip install gym[classic_control]
 pip install gym[box2d]
 ```
+
 - Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
 ```
 git clone https://github.com/udacity/deep-reinforcement-learning.git
 cd deep-reinforcement-learning/python
 pip install .
 ```
+
 - Create an IPython kernel for the dqn environment.
 ```
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
-- Then you can finally open the **Navigation.ipynb**. Before running code in this notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu
 
-![This is an image](https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png)
+- Download the Unity Environment which matches your operating system
+    - [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - [Mac](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    - [Windows (32bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    - [Windows (64bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+and unzip in a folder of your choice
+
+- Then you can finally open the **Navigation.ipynb**. Before running code in this notebook
+    - change the kernel to match the drlnd environment by using the drop-down Kernel menu
     
+    ![This is an image](https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png)
+ 
+    - In the following line
+    ```
+    env = UnityEnvironment(file_name="...")
+    ```
+    change the folder path where you installed the Banana unity environment.
