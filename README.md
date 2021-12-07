@@ -25,8 +25,7 @@ The **checkpoint.pth** which contains the model weights of as successful DQN age
 The **report.pdf** describes the details of the implementation and more ideas about the DQN agent.
 
 
-To run the code properly a **python** folder is provided. In this folder there are all the files needed for the installation of the Unity environments. 
-
+To run the code properly a **python** folder is provided. The project environment is similar to, but not identical to the Banana Collector environment on the [Unity ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents). This folder, provided by the [Reinforcement Learning Nanodegree progam of **Udacity**]( https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893), there are all the files needed for the installation of the Unity environments. 
 
 ## Requirements and installation
 
