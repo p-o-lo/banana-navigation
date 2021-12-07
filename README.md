@@ -22,12 +22,12 @@ To make the project as readable as possible, only the **Navigation.ipynb** Pytho
 
 The **report.pdf** describes the details of the implementation and more ideas about the DQN agent.
 
-In order to run the code properlt a **python** folder is provided. In this folder there are all the files needed for the installation of the Unity environments. 
+To run the code properly a **python** folder is provided. In this folder there are all the files needed for the installation of the Unity environments. 
 
 
 ## Requirements and installation
 
-To run the notebook firstly **Navigation.ipynb** we need to set up the environment as follow:
+To run the notebook **Navigation.ipynb** it firstly needs to set up the environment as follows:
 
 - Create (and activate) a new kernel with Python 3.6
     - **Linux** or **Mac**
