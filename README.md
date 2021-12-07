@@ -18,9 +18,12 @@ The aim is to collect as many yellow bananas as possible, avoiding the blue ones
 
 ## Files provided
 
-To make the project as readable as possible, only the **Navigation.ipynb** Python notebook is provided. In the netbook you will find a detailed description of the environment and the comments on the code 
+To make the project as readable as possible, only the **Navigation.ipynb** Python notebook is provided. In the netbook you will find a detailed description of the environment and the comments on the code.
+
+The **checkpoint.pth** which contains the model weights of as successful DQN agent.
 
 The **report.pdf** describes the details of the implementation and more ideas about the DQN agent.
+
 
 To run the code properly a **python** folder is provided. In this folder there are all the files needed for the installation of the Unity environments. 
 
